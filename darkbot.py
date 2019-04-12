@@ -824,5 +824,4 @@ async def embed(ctx, *args):
     color = discord.Color((r << 16) + (g << 8) + b)
     await client.send_message(ctx.message.channel, embed=Embed(color = color, description=text))
     await client.delete_message(ctx.message)
-
 client.run(os.getenv('NTYxODQyNTY1MzA1ODYwMTA2.XLDSsQ.pLekCvcxg7HVW1QZBccUt-Idhl8')
